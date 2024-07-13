@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.b {
+    
+    display: inline-flex;
+    
+   
+}
+.b  h1{
+    font-family: "Ga Maamli", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 150px;
+  color:rgba(95, 41, 20, 0.99);
+  text-shadow: 2px 4px 6px black;
+}
+.b img{
+    margin-left: 170px;
+}
+.v{
+    background-color: #b4640f;
+}
+    span{
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .n ,h1{
+        margin-top: 20px;
+
+        
+        color:rgba(77, 37, 22, 0.99);
+        font-family: "Nova Mono", monospace;
+        font-weight: bolder;
+    }
+    .n p{
+        border: 1px solid rgb(96, 58, 22);
+      font-size: 15px;
+      margin-left: 300px;
+      margin-right: 300px;
+       padding: 70px;
+       font-family: "Nova Mono", monospace;
+       font-weight: bolder;
+       justify-content: center;
+    }
+   
+    .q  .g {
+        display: inline-flex;
+       
+       
+    }
+    .q span{
+        margin-left: 5px;
+        font-size: 20px;
+        color: #492a0a;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight:100;
+        size-adjust: 200;
+    }
+    .q {
+        margin:20px ;
+        
+        
+        color: #341f09;
+        font-size: 18px;
+        font-weight: 2px;
+        
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+
+    }
+    .q ul li{
+        margin:20px ;
+        
+        margin-left: 50px;
+        color: #341f09;
+        font-size: 18px;
+        font-weight: 2px;
+        
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+    }
+    .q h1{
+        font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+    }
+    .d h1{
+        font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  text-align: center;
+    }
+    .t p{
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: larger;
+        color: #341f09;
+    
+    }
+    .t h2{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: #341f09;
+    }
+    .contact-form{
+        max-width: 900px;
+        height: 380px;
+        border-radius: 15px;
+        background-color: #b4640f;
+      font-size: 15px;
+     margin-left: 300px;
+   display: flex;
+   padding: 20px;
+       font-family: "Nova Mono", monospace;
+       font-weight: bolder;
+       border: 1px solid black;
+       
+    }
+    input[type=text] {
+       
+        margin: 8px 0;
+        display: inline-flex;
+        border: 1px solid black;
+        border-radius: 4px;
+        box-sizing: border-box;
+        
+    }
+    .contact-form label input{
+        display: flex;
+        padding:  20px;
+        
+        border: 1px solid black;
+    }
+    .contact-form label{
+        margin-left: 250px;
+        margin-top: 50px;
+        font-size: 18px;
+    }
+   
+
+   
+.l .x{
+    text-align: center;
+    
+    
+}
+ .s h1{
+    
+
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+}
+.r{
+    justify-content: right;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    padding: 20px;
+
+}
+
+.left, .center, .right {
+    color: #3d3d3d;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+
+.left img {
+    width: 100px;
+    height: 100px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.text h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.text p {
+    font-size: 2.5em;
+    margin: -10px 0 20px;
+}
+
+.social-media {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.social-media a {
+    color: #3d3d3d;
+    text-decoration: none;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.right {
+    text-align: right;
+    width: 35%;
+}
+
+.right h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.right p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 0 0 20px;
+}
+
+.right a {
+    color: #3d3d3d;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+#o{
+    color:#593209;
+     transition: color 0.3s ease;
+}
+   #o :hover{
+color: bisque;
+cursor: pointer;
+}
+.ty   {
+    font-size: 1.2em;
+    color: #3b2313;
+    position: -webkit-sticky;
+    position: sticky;
+top:0;
+    background-color: #d08433;
+    z-index: 1000;
+    text-align: center;
+    }
+    .image-zoom-container{
+        position: absolute;
+    text-align: right;
+        position: sticky;
+        top:90%;
+        
+        cursor: pointer;
+    
+        
+    }
+    .f{
+    position: absolute;
+    position: sticky;
+    top:0;
+
+    }
+    .image-zoom-container{
+        overflow: hidden;
+    }
+    .image-zoom-{
+        transition: transform 0.35s ease;
+    }
+.image-zoom:hover{
+    transform: scale(1.2);
+}
